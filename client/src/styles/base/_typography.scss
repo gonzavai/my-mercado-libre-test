@@ -1,0 +1,25 @@
+html, body {
+    font-family: var(--font-poppins);
+    font-weight: var(--font-weight-base);
+    color: var(--text-color);
+}
+
+.headline {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-base);
+}
+
+h1, .title {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-medium);
+}
+
+h2, .subtitle {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-base);
+}
+
+p, .text-base {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-base);
+}

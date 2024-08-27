@@ -1,0 +1,34 @@
+/*
+Think of variables as a way to store information that you want to reuse throughout your stylesheet.
+You can store things like colors, font stacks, or any CSS value you think you’ll want to reuse.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  //Colors
+  --background-color: #ededed;
+  --primary-color: #ffe600;
+  --secondary-color: #3581fe;
+  --tertiary-color: #dddcdc;
+
+  //decorations
+  --foreground-color: #ffffff;
+  --border-color: #e0e0e0;
+
+  //Tipography
+  --font-poppins: "Poppins", "sans-serif";
+  --text-color: #333333;
+  --light-text-color: #666666;
+  --white-text-color: whitesmoke;
+  --font-size-xl: 32px;
+  --font-size-large: 16px;
+  --font-size-base: 14px;
+  --font-size-small: 12px;
+  --font-weight-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-base: 400;
+  --font-weight-light: 300;
+}
+
+$font-poppins: "Poppins", "sans-serif";

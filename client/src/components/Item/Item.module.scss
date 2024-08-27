@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  padding: 10px;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--foreground-color);
+
+  &__image {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+  }
+
+  &__details {
+    flex: 1;
+
+    &__priceWithIcon {
+      display: flex;
+      gap: 5px;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    &__location {
+      color: #888;
+    }
+  }
+}

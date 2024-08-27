@@ -1,0 +1,25 @@
+/* 
+A mixin lets you make groups of CSS declarations that you want to reuse throughout your site.
+It helps keep your Sass very DRY.
+You can even pass in values to make your mixin more flexible.
+*/
+
+@mixin flexCenter() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flexStart($direction) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+}
+
+@mixin flexEnd($direction) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+}

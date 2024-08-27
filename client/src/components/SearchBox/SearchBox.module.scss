@@ -1,0 +1,51 @@
+@use "../../styles/styles.scss";
+
+.searchBoxContainer {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  max-width: 50rem;
+  width: 100%;
+}
+
+.searchBox__iconLeft {
+  margin-right: 10px;
+
+  img {
+    height: 40px;
+  }
+}
+
+.searchBox__input {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+
+  &:focus {
+    border-color: black;
+    outline: none;
+  }
+}
+
+.searchButton {
+  @extend .secondary-button;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchButton__icon {
+  width: 20px;
+  height: 20px;
+}
